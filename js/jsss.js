@@ -30,7 +30,7 @@
 
 
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
 
 
 // function sayHello() {
@@ -146,7 +146,7 @@ console.log(personalMovieDB);
 //     return str;
 // }
 
-rty(101, 1);
+// rty(101, 1);
 
 
 // Создайте функцию, которая будет принимать в себя 2 аргумента, оба числа. Первое число - это база, второе число - это сколько раз нужно будет повторить это число в прогрессии. (Смотри пример ниже). Функция должна возвращать строку (или число в особых случаях, о которых ниже), где эти числа идут по порядку, разделенные тремя дефисами "---". После последнего числа их не должно быть.
@@ -307,3 +307,71 @@ rty(101, 1);
 
 
 
+    // const tyu = {
+    //     product:[],
+    //     genres:[]
+    // };
+
+   
+    // for (let i = 1; i <= 1; i++) {
+    //     const u = 1;
+
+    //     tyu.genres[i - 1] = `t`;
+    //     console.log(i);
+    // }
+
+    // for (let i = 1; i <= 1; i++) {
+    //     const q = 1;
+
+    //     tyu.product[i - 1] = `t`;
+    //     console.log(i);
+    // }
+
+    // console.log(tyu);
+
+    // const arr = [3, 5, 8, 16, 20, 23, 50];
+    // const result = [];
+    // for (let i = 0; i < arr.length; i++)  {
+    //     result[i] = arr[i];
+    // }
+    // console.log(result);
+
+
+    // function secondTask() {
+    //     const data = [5, 10, 'Shopping', 20, 'Homework'];
+    
+    //     for (let i = 0; i < data.length; i++) {
+    //         if (typeof(data[i]) === 'number') {
+    //             data[i] = data[i] * 2;
+    //         } else if (typeof(data[i]) === 'string') {
+    //             data[i] = `${data[i]} - done`;
+    //         }
+    //     }
+    
+    //     console.log(data);
+    //     return data;
+    // }
+
+    // secondTask();
+
+
+    // const db = [5, 50, 1000, 'defe', 10, 'ewre', 1];
+    // for(let i = 0; i < db.length; i++) {
+    //     if (typeof(db[i]) === 'number') {
+    //         db[i] = db[i] * 2;
+
+    //     } else if (typeof(db[i]) === 'string') {
+    //         db[i] = `${db[i]}-qq`;
+    //     }
+    // }
+    
+    // console.log(db);
+
+
+    const data = [5, 10, 'Shopping', 20, 'Homework'];
+    const result = [];
+    for (let i  = 1; i < data.length; i++ ) {
+        result[i - 1] = data[data.length - i];
+    }
+
+    console.log(result);
