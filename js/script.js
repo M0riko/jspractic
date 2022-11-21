@@ -29,7 +29,7 @@ function remembermyfilms () {
                 personalMovieDB.movies[a] = b;
                 console.log('done');
             } else {
-                console.log('error');
+                console.log('error');ё1
                 i--;
             }
             personalMovieDB.movies[a] = b;
